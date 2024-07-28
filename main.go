@@ -55,7 +55,6 @@ func ValidoParamtros() bool{
 	_,traeParametro = os.LookupEnv("UrlPrefix")
 	if !traeParametro {
 		return traeParametro
-		
 	}
 	return traeParametro
 }
