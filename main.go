@@ -14,8 +14,6 @@ import (
 func main(){
 	lambda.Start(EjecutoLambda)
 }
-
-
 func EjecutoLambda(ctx context.Context, request events.APIGatewayV2HTTPRequest)(*events.APIGatewayProxyResponse, error){
 	//Conectar con el servicio de aws
 	awsgo.StartAWS()
